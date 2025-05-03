@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-kc</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Work+Sans:wght@400;500&family=Manrope:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar starts here -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo">
+                <img src="assets/images/logo.png" alt="Church Logo">
+            </a>
+            
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link ">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link ">About Us</a></li>
+                <li class="nav-item menu-item-has-children">
+                    <a href="#" class="nav-link">Ministries <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Impact </a></li>
+                        <li><a href="#">Waridi</a></li>
+                        <li><a href="#">K-Hub
+                        <li><a href="#">K-Teens</a></li>
+                        <li><a href="#">K-KIds</a></li>
+                        <li><a href="#">Production</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="contact.html" class="nav-link active">Contact us</a>      
+                <li class="nav-item"><a href="give.html" class="nav-link">Give</li>
+            </ul>
+            <a href="#" class="navbar-btn">watch LIve</a>
+        </div>
+    </nav>
+    <!-- Navbar ends here -->
+
+
+     <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Get In Touch</h1>
+                <p>We'd love to hear from you</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Grid -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info Card -->
+                <div class="contact-info">
+                    <div class="section-header">
+                        <span class="section-label">Reach Out</span>
+                        <h2>Contact Information</h2>
+                        <div class="section-divider"></div>
+                    </div>
+
+                    <!-- Contact Items -->
+                    <div class="contact-items">
+                        <!-- Address -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Address</h3>
+                                <p>Big tent behind tigers,<br>Nanyuki - Nyeri highway</p>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email Us</h3>
+                                <a href="mailto:kingdomcityc@gmail.com">kingdomcityc@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Call Us</h3>
+                                <a href="tel:+254717098155">0717 098155</a>
+                            </div>
+                        </div>
+
+                        <!-- Social Media -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-hashtag"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Follow Us</h3>
+                                <div class="social-links">
+                                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <div class="section-header">
+                        <span class="section-label">Send Message</span>
+                        <h2>Get In Touch</h2>
+                        <div class="section-divider"></div>
+                    </div>
+                    
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone">
+                            <label for="phone">Phone Number (Optional)</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8183041242905!2d37.067815573808595!3d-0.0051661999947794435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18281dac8dd8446d%3A0x852f34ac2bf8d809!2sKINGDOMCITY%20CHURCH%20NANYUKI!5e0!3m2!1sen!2ske!4v1743735579099!5m2!1sen!2ske"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+ <!-- Footer Section -->
+ <footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-grid">
+            <!-- Column 1 - Logo & Info -->
+            <div class="footer-column logo-column">
+                <img src="assets/images/logo.png" alt="Kingdomcity Church Logo" class="footer-logo">
+                <div class="church-info">
+                    <p class="footer-text"></p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 2 - Visit Us -->
+            <div class="footer-column">
+                <h3 class="footer-heading">VISIT US</h3>
+                <address class="footer-address">
+                    <p>Big tents behing tigers,</p>
+                    <p>Nanyuki-Nyeri Highway,</p>
+                    <p>Nanyuki, Kenya.</p>
+                </address>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone-alt"></i> +254 700 123456</p>
+                    <p><i class="fas fa-envelope"></i> info@kingdomcity.org</p>
+                </div>
+            </div>
+
+            <!-- Column 3 - Services & Links -->
+            <div class="footer-column">
+                <div class="services-section">
+                    <h3 class="footer-heading">SERVICES</h3>
+                    <p>08:30 am – 10:00 am</p>
+                    <p>10:30 am – 1:00 pm</p>
+                </div>
+                
+               
+            </div>
+
+            <!-- Column 4 - Links -->
+            <div class="links-section">
+                <h3 class="footer-heading"> Quick LINKS</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Ministries</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Give</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="copyright-section">
+            <p>2025 &copy; Kingdomcity Church. All Rights Reserved.</p>
+            <div class="legal-links">
+                <!--<a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Safeguarding Policy</a>
+            </div>-->
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
